@@ -241,11 +241,11 @@
 Результаты обучения моделей:
 | model_name                  |   train |   test |
 |-----------------------------|---------|--------|
-| ElasticNet Poly             |   0.936 |  **0.874** |
-| LinearRegression            |   0.833 |  0.811 |
-| DecisionTree                |   0.968 |  0.788 |
-| RandomForest                |   0.905 |  0.773 |
-| GradientBoosting (LightGBM) |   0.908 |  0.739 |
-| LinearRegression Poly       |   **1**     |  0.695 |
+| Lasso Poly                  |   0.934 |  **0.869** |
+| LinearRegression            |   0.835 |  0.806 |
+| RandomForest                |   0.907 |  0.775 |
+| DecisionTree                |   0.981 |  0.769 |
+| GradientBoosting (LightGBM) |   0.901 |  0.749 |
+| LinearRegression Poly       |   **1**     |  0.653 |
 
-Наилучшая модель по точности - ElasticNet Poly
+Наилучшая модель по точности - Lasso Poly
