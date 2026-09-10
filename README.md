@@ -248,4 +248,4 @@
 | GradientBoosting (LightGBM) |   0.901 |  0.749 |
 | LinearRegression Poly       |   **1**     |  0.653 |
 
-Наилучшая модель по точности - Lasso Poly
+Наилучшая модель - Lasso Poly, R2 0.869 на тесте.
